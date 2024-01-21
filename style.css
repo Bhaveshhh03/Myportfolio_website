@@ -1,0 +1,216 @@
+* {
+    margin: 0px;
+    scroll-behavior:smooth; 
+}
+
+body {
+
+    background-color: rgb(13, 1, 41);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(36 50 203);
+    padding: 0px 15px 0px 15px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 10px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    font-size: 1.07rem;
+    color: rgb(5, 2, 39);
+    transition: 0.7s;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 0px 15px 0px 15px;
+}
+
+.leftside {
+    font-size: 2.3rem;
+    margin: 100px 0px 0px 40px;
+    width: 58%;
+    font-weight: bold;
+}
+.linkbtn ul {    
+    display: flex;
+    margin: 10px -60px;
+}
+
+.linkbtn ul li{    
+    list-style: none;
+    margin:0px 15px;
+}
+.linkbtn ul li a{    
+   text-decoration: none;
+   color: rgb(36 50 203);
+   font-size: 2rem ;
+}
+.linkbtn ul li a:hover{    
+   color:aqua;
+   
+}
+.leftside .btn a:link ,a:visited{
+    font-size: 1rem;
+    background-color:rgb(36 50 203);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+.leftside .btn a:hover{
+    background-color: aqua;
+    color: black;
+   
+}
+.rightside {
+    width: 50%;
+}
+
+.rightside img {
+    width: 85%;
+    margin: 40px 0px 0px 140px;
+}
+
+.name {
+    color: aqua;
+}
+#element{
+    color: aqua;
+}
+.about{
+    background-color:rgb(21, 3, 62) ;  
+    height: 110vh;  
+}
+.about .aboutme{
+    margin: 90px 20px 0px 90px;
+    
+}
+.about .aboutme .title{
+    font-size: 2.6rem;
+    width: 58%;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.about .aboutme .content{
+    font-size: 1.1rem;
+    padding-right: 50px;
+}
+.about .langbox{
+    display: flex;
+    margin-top: 30px;
+}
+.about .langbox .box1{
+    width: 150px;
+    height: 180px;
+    border-color: black;
+    border-radius: 20px;
+    background-color: rgb(201, 204, 207);
+    margin-left: 170px;
+    text-align:center;
+}
+
+.about .langbox .box2{
+    width: 150px;
+    height: 180px;
+    border-color: black;
+    border-radius: 20px;
+    background-color: rgb(201, 204, 207);
+    margin-left: 30px;
+    text-align: center;
+}
+.about .langbox .box3{
+    width: 150px;
+    height: 180px;
+    border-color: rgb(20, 134, 187);
+    border-radius: 20px;
+    background-color: rgb(201, 204, 207);
+    margin-left: 30px;
+    text-align: center;
+}
+.about .langbox .box4{
+    width: 150px;
+    height: 180px;
+    border-color: black;
+    border-radius: 20px;
+    background-color: rgb(201, 204, 207);
+    margin-left: 30px;
+    text-align: center;
+}
+.about .langbox .box5{
+    width: 150px;
+    height: 180px;
+    border-color: black;
+    border-radius: 20px;
+    background-color: rgb(201, 204, 207);
+    margin-left: 30px;
+    text-align: center;
+}
+.about .langbox .box6{
+    width: 150px;
+    height: 180px;
+    border-color: black;
+    border-radius: 20px;
+    background-color: rgb(201, 204, 207);
+    margin-left: 30px;
+    text-align: center;
+}
+.about .langbox .box7{
+    width: 150px;
+    height: 180px;
+    border-color: black;
+    border-radius: 20px;
+    background-color: rgb(201, 204, 207);
+    margin-left: 30px;
+    text-align: center;
+}
+.about .databasebox{
+    display: flex;
+    margin-top: 30px;
+}
+.about .databasebox .box1{
+    width: 150px;
+    height: 180px;
+    border-color: black;
+    border-radius: 20px;
+    background-color: rgb(201, 204, 207);
+    margin-left: 170px;
+    text-align: center;
+}
+.about .databasebox .box2{
+    width: 150px;
+    height: 180px;
+    border-color: black;
+    border-radius: 20px;
+    background-color: rgb(201, 204, 207);
+    margin-left: 30px;
+    text-align: center;
+}
+
+
