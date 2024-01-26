@@ -33,7 +33,7 @@ nav ul li a {
     color: white;
 }
 
-nav #menu {
+nav .menu {
     font-size: 2rem;
     display: none;
 }
@@ -357,9 +357,16 @@ a:visited {
         padding-top: 8px;
         text-align: center;
         /* flex-direction: column; */
-        height: 40vh;
+        height: 40px; /*40vh*/
         align-items: unset;
         display: block;
+        transition: 0.5s;
+        /* overflow: hidden; */
+    }
+    .navbar.active{
+        background-color: rgba(0, 255, 255, 0.479);
+        height: 40vh;
+        z-index:1;
     }
 
     nav .left {
@@ -376,9 +383,14 @@ a:visited {
     }
 
     nav ul li {
+        transition: 0.5s;
+        opacity: 0;
         font-size: 1.1rem;
         margin: 42px 15px -3px -14px;
 
+    }
+    .navbar.active ul li{
+        opacity: 1;
     }
 
     nav ul li a {

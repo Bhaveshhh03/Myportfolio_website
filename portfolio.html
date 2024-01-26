@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <header>
-    <nav id="top">
+    <nav class="navbar" id="top">
         <div class="left"><b>Bhavesh's Portfolio</b>
-            <div class="menu"> <a id="menu" href=""><i class='bx bx-menu'></i></a></div>
+            <div class="menu"><i class='bx bx-menu'></i></div>
         </div>
         <div class="right">
 
@@ -153,7 +153,16 @@
         typeSpeed: 80,
     });
 </script>
-
+<script>
+    let menu = document.querySelector(".menu");
+    let navbar = document.querySelector(".navbar");
+   menu.addEventListener("click",()=>{
+        navbar.classList.toggle("active");
+        console.log(navbar);
+   })
+      
+    
+</script>
 <body>
 </body>
 
